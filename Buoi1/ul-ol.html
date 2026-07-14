@@ -1,0 +1,27 @@
+<!-- Cách dưới là đúng khi viết thẻ ul,ol bên trong chỉ nên là các thẻ li, ul,ol chứa thẻ li xong trong thẻ li lại chứa ol, ul 
+mới là đúng -->
+<ol>
+  <li>Giới thiệu khóa học</li>
+  <li>
+    Nội dung chính
+    <ol>
+      <li>Làm quen HTML CSS</li>
+      <li>Học cách dàn trang</li>
+      <li>Thực hành làm dự án</li>
+    </ol>
+  </li>
+  <li>Hoàn thành khóa học</li>
+</ol>
+
+<!-- Cách dưới là sai vì thẻ ul,ol lại chứa trực tiếp thẻ ul,ol -->
+
+<ol>
+  <li>Giới thiệu khóa học</li>
+  <li>Nội dung chính</li>
+  <ol>
+    <li>Làm quen HTML CSS</li>
+    <li>Học cách dàn trang</li>
+    <li>Thực hành làm dự án</li>
+  </ol>
+  <li>Hoàn thành khóa học</li>
+</ol>
